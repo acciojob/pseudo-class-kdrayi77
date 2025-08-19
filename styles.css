@@ -4,8 +4,8 @@
 }
 
 /* Insert content before the container */
-#container::before {
-  content: "Special Text Before";
+#container:before {
+  content: "Before Element";
   color: #f00;
   font-size: 20px;
   display: block;
@@ -13,8 +13,8 @@
 }
 
 /* Insert content after the container */
-#container::after {
-  content: "Special Text After";
+#container:after {
+  content: "After element";
   color: #f00;
   font-size: 20px;
   display: block;
