@@ -1,16 +1,23 @@
-<!DOCTYPE html>
+#container {
+  margin: 20px;
+  font-size: 16px;
+  position: relative;
+}
 
-<html>
+/* Insert content before the container */
+#container::before {
+  content: "Special Text Before";
+  color: #f00;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
-</html>
+/* Insert content after the container */
+#container::after {
+  content: "Special Text After";
+  color: #f00;
+  font-size: 20px;
+  display: block;
+  margin-top: 10px;
+}
