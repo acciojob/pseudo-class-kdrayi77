@@ -1,23 +1,15 @@
-#container {
-  margin: 20px;
-  font-size: 16px;
-  position: relative;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo-Elements Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-/* Insert content before the container */
-#container::before {
-  content: "Special Text Before";
-  color: #f00;
-  font-size: 20px;
-  display: block;
-  margin-bottom: 10px;
-}
+  <div id="container">
+    This is the main content of the container.
+  </div>
 
-/* Insert content after the container */
-#container::after {
-  content: "Special Text After";
-  color: #f00;
-  font-size: 20px;
-  display: block;
-  margin-top: 10px;
-}
+</body>
+</html>
