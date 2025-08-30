@@ -1,18 +1,16 @@
 #container {
   margin: 20px;
-  font-size: 18px;
+  font-size: 16px; /* normal content size */
 }
 
 #container::before {
   content: "Before Element ";
   color: #f00;
   font-size: 20px;
-  font-weight: bold;
 }
 
 #container::after {
   content: " After Element";
   color: #f00;
   font-size: 20px;
-  font-weight: bold;
 }
